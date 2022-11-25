@@ -1,0 +1,72 @@
+*{
+    font-family: Helvetica;
+}
+
+nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: forestgreen;
+    color: white;
+    height: 110px;
+    width: 80%;
+    float: left;
+    text-align: center;
+}
+
+body{
+    background-color: tan;
+}
+
+nav h1{
+    text-align: center;
+}
+.lewy{
+    
+}
+.prawy{
+    float: left;
+    padding-left: 40%;
+    margin-top: -212px;
+    scale: 130%;
+}
+.prawy img {
+    width: 30%;
+    margin-left: 1.2%;
+    border-radius: 20%;
+}
+.miniatura{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: forestgreen;
+    height: 110px;
+    width: 20%;
+}
+
+.miniatura img{
+    float: right;
+}
+
+img{
+    margin: 5px;
+    padding: 4px;
+    border: 1px solid forestgreen;
+    border-radius: 15px;
+}
+
+img:hover{
+    border: 1px solid maroon;
+}
+
+footer{
+    position: fixed;
+    background-color: forestgreen;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    clear: both;
+    text-align: center;
+    color: white;
+}
